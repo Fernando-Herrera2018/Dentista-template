@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "YanokeKaff-Bold";
+  src: url("../fonts/YanoneKaffeesatz-Bold.ttf");
+}
+
+@font-face {
+  font-family: "YanokeKaff-Medium";
+  src: url("../fonts/YanoneKaffeesatz-Medium.ttf");
+}
+
+@font-face {
+  font-family: "YanokeKaff-Regular";
+  src: url("../fonts/YanoneKaffeesatz-Regular.ttf");
+}
+:root {
+  /** Colors**/
+  --color-primary: #9acd32;
+  --color-secondary: #ffffff;
+  --color-tertiary: #000000;
+  --color-quaternary: #5dc7f5;
+
+  /** Fonts **/
+  --fontRegular: "YanokeKaff-Regular";
+  --fontMedium: "YanokeKaff-Medium";
+  --fontBold: "YanokeKaff-Bold";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-secondary);
+  background: var(--color-primary);
+  font-weight: 300;
+  font-size: 18px;
+}
+
+header,
+section {
+  max-width: 1200px;
+  margin: auto;
+}
